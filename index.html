@@ -4,11 +4,91 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <script src="main.js"></script>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
     <link rel="stylesheet" href="style.css">
     <title>Document</title>
 </head>
 <body>
-    
+    <nav class="navbar navbar-inverse">
+        <div class="container-fluid">
+            <div class="navbar-header">
+                <a class="navbar-brand" href="#">UNETI</a>
+            </div>
+            <ul class="nav navbar-nav">
+                <li class="active"><a href="#">Home</a></li>
+                <li class="dropdown">
+                    <a class="dropdown-toggle" data-toggle="dropdown" href="#">Page 1
+                        <span class="caret"></span></a>
+                    <ul class="dropdown-menu">
+                        <li><a href="#">Page 1-1</a></li>
+                        <li><a href="#">Page 1-2</a></li>
+                        <li><a href="#">Page 1-3</a></li>
+                    </ul>
+                </li>
+                <li><a href="#">Page 2</a></li>
+                <li><a href="#">Page 3</a></li>
+            </ul>
+        </div>
+    </nav>
+    <p>Thông tin về điểm sinh viên</p>
+    <table>
+        <thead>
+            <tr>
+                <th rowspan="2">STT</th>
+                <th rowspan="2">Mã SV</th>
+                <th rowspan="2">Họ Tên</th>
+                <th colspan="3">Điểm</th>
+            </tr>
+            <tr>
+                <th>Toán</th>
+                <th>Lý</th>
+                <th>Hoá</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>1</td>
+                <td>1390123</td>
+                <td>Toàn Nguyễn</td>
+                <td>9</td>
+                <td>8</td>
+                <td>6</td>
+            </tr>
+            <tr>
+                <td>2</td>
+                <td>432042</td>
+                <td>Toàn Tam</td>
+                <td>4</td>
+                <td>8</td>
+                <td>9</td>
+            </tr>
+            <tr>
+                <td>3</td>
+                <td>940324</td>
+                <td>Thi Nguyễn</td>
+                <td>9</td>
+                <td>8</td>
+                <td>7</td>
+            </tr>
+            <tr>
+                <td>4</td>
+                <td>08324324</td>
+                <td>Thu Nguyễn</td>
+                <td>7</td>
+                <td>8</td>
+                <td>6</td>
+            </tr>
+        </tbody>
+        <tfoot>
+            <tr>
+                <th colspan="3">Tổng</th>
+                <td>29</td>
+                <td>32</td>
+                <td>28</td>
+            </tr>
+        </tfoot>
+    </table>
 </body>
 </html>
